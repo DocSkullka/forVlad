@@ -98,13 +98,29 @@ footer button:hover {
       height: 20%;
   }
 
+
   @supports (-webkit-touch-callout: none) {
     html, body {
       overflow: hidden;
     }
+
     .imageWrapper {
       margin-bottom: 140px;
       box-sizing: border-box;
+    }
+
+    .fixedDiv1 {
+      top: 62%;
+      left: 25%;
+      width: 30%;
+      height: 15%;
+    }
+  
+    .fixedDiv2 {
+        top: 60%;
+        right: 17%;
+        width: 35%;
+        height: 20%;
     }
   }
   
